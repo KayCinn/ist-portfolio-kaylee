@@ -13,6 +13,8 @@ int main()
 
 	printf("Enter your letter grade: ");
 	scanf(" %c", &grade);
-	
-return 0;
+
+	printf("Your age is %i, your gpa is %f, your grade is %c\n", age, gpa, grade);
+
+	return 0;
 }
